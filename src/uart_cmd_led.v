@@ -45,7 +45,7 @@ module uart_cmd_led #(parameter CLKS_PER_BIT = 5208)(
             case (rx_data)
                 8'h30:   led <= 1'b0;   // '0'
                 8'h31:   led <= 1'b1;   // '1'
-                8'h32:   led <= ~led;   // '2'
+                8'h32:   led <= 1'b1;   // '2'
                 default: led <= led;
             endcase
         end

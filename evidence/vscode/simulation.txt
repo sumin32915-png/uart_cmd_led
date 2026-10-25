@@ -17,3 +17,21 @@ C:\Users\sumin\fpga\uart_cmd_led\sim\tb_uart_cmd_led.sv:57: $finish called at 34
 시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
 WAVE C:\Users\sumin\fpga\uart_cmd_led\build\sim\wave.vcd
  *  Terminal will be reused by tasks, press any key to close it. 
+
+
+ [2] FAIL 로그
+ RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\fpga\uart_cmd_led\build\sim\run-388cfc3deb644aa797469624264606e6\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+sent 31 (1) echo 31 led 1
+sent 41 (A) echo 41 led 1
+sent 61 (a) echo 61 led 1
+sent 30 (0) echo 30 led 0
+sent 31 (1) echo 31 led 1
+sent 31 (1) echo 31 led 1
+FATAL: C:\Users\sumin\fpga\uart_cmd_led\sim\tb_uart_cmd_led.sv:45: led cmd=32 exp=0 got=1
+       Time: 21735000  Scope: tb.check
+
+ERROR: 종료 코드 1: C:\Users\sumin\fpga\uart_cmd_led\build\sim\run-388cfc3deb644aa797469624264606e6\simulation.log
+
+ *  The terminal process "C:\Users\sumin\AppData\Local\Microsoft\WindowsApps\python.EXE 'tools/fpga_lab.py', 'simulate'" terminated with exitcode: 1. 
+ *  Terminal will be reused by tasks, press any key to close it. 
