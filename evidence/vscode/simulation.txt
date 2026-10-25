@@ -1,0 +1,19 @@
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\fpga\uart_cmd_led\build\sim\run-e7786e54db584927a2e4c628deda3359\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+sent 31 (1) echo 31 led 1
+sent 41 (A) echo 41 led 1
+sent 61 (a) echo 61 led 1
+sent 30 (0) echo 30 led 0
+sent 31 (1) echo 31 led 1
+sent 31 (1) echo 31 led 1
+sent 32 (2) echo 32 led 0
+sent 32 (2) echo 32 led 1
+sent 32 (2) echo 32 led 0
+sent 78 (x) echo 78 led 0
+sent 01 () echo 01 led 0
+PASS uart_cmd_led: echo 11 bytes, LED 0/1/2/other
+C:\Users\sumin\fpga\uart_cmd_led\sim\tb_uart_cmd_led.sv:57: $finish called at 34135000 (1ps)
+
+시뮬레이션 실행 완료. 진리표·자기검사·파형으로 회로의 정답 여부를 확인하세요.
+WAVE C:\Users\sumin\fpga\uart_cmd_led\build\sim\wave.vcd
+ *  Terminal will be reused by tasks, press any key to close it. 

@@ -1,5 +1,9 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+  "sources": [
+    "src/uart_rx.v",
+    "src/uart_tx.v",
+    "src/uart_cmd_led.v"
+  ],
+  "testbench": "sim/tb_uart_cmd_led.sv",
+  "simulation_top": "tb"
 }
